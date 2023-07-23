@@ -1,0 +1,4 @@
+CREATE TABLE users (
+    id uuid PRIMARY KEY,
+    username CHARACTER VARYING(255) NOT NULL
+);
